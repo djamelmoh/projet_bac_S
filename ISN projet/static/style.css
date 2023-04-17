@@ -1,0 +1,168 @@
+
+
+
+
+h1{
+	
+	margin-left: 650px;
+	align: center; 
+	font-family: Arial;
+	font-size: 2.5m;
+	font-style: bold;
+	color:black;
+	width: 500px;
+}
+
+a{
+	text-shadow:0px 0px 10px white
+}
+
+h2{
+	text-align:left;
+	color: dark;
+	font-family: Arial;
+	font-size: 1.3em;
+	font-weight: bold;
+	width: 280 px;
+		
+}
+h3{
+	text-align: justify;
+	margin:20px;
+	border: 3px darkturquoise  inset;
+	position: relative;
+	font-weight: bold;
+	border-style: none;
+}
+
+h6{
+	top: 50 px;
+	left: 200 px; 
+	position: relative;
+	
+}
+
+p{ 
+	margin:20px;
+	color:white; 
+  	font-family: Arial;
+	font-size: 1.3em;
+	text-align: justify;
+}
+
+
+h3:hover{
+	text-align: justify;
+	color: white;
+	font-family: Arial;
+	font-size: 1.3em;
+	position: relative;
+}
+
+blockquote {
+	margin:0;
+	padding:1px;
+ }
+
+article{
+	text-align: justify;
+	width: 800px;
+	border-radius: 0px;
+	margin:auto;
+	margin-bottom: 20px;
+	padding: 12px;
+	display:flex;
+	text-align: justify;
+}
+
+div{
+	margin:20px;
+	position: left;
+}
+
+
+
+footer{
+	
+	text-align: justify;
+	box-shadow: 5px 5px 10px red;
+	width: 1505px;
+	border-radius: 0px;
+	margin:auto;
+	display:flex;
+}
+
+ul{
+	text-align: justify;
+	box-shadow: 5px 5px 10px red;
+	width: 1505px;
+	border-radius: 0px;
+	margin:auto;
+	display:flex;
+	background-image: url('images/fond6.png');
+}
+
+
+li{
+	text-align: justify;
+	box-shadow: 5px 5px 10px red;
+	width: 1505px;
+	border: 3px limegreen outset;
+	border-radius: 0px;
+	margin:auto;
+	display:flex;
+	background-color: background-image:url('images/fond6.png');
+}
+
+
+
+
+body{
+	text-align: justify;
+    color:white-space;
+	background-color:white;
+	margin:20px;
+	background: url(images/index.png) no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+
+
+a:link{
+		text-decoration: none;
+}
+
+
+
+
+a:hover{
+	background-color: gold;
+	color:black;
+	font-style:center;
+	
+}
+
+
+ 
+ 
+dd {
+	margin:20px;
+	padding:10px;
+ }
+ 
+ 
+footer{
+	text-align: justify;
+	box-shadow: 5px 5px 10px red;
+	width: 1505px;
+	border-radius: 0px;
+	margin:auto;
+	display:flex;
+	background-image: url('images/fond6.png');
+}
+
+img{
+	width : 480px;
+
+}

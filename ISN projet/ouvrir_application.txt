@@ -1,0 +1,7 @@
+comment ouvrir le dossier
+
+allumer l'application python 
+
+aller sur google est marquer : localhost:3000
+
+ouverture du site 

@@ -1,0 +1,139 @@
+<Doctype_html>
+<html>
+	<head>
+		<meta charset="utf-8/">
+		<link href="{{ url_for('static', filename='contact.css') }}" rel="stylesheet" type="text/css" />
+		<link href="{{ url_for('static', filename='contact1.css') }}" rel="stylesheet" type="text/css" />
+		<title>ISN</title>
+	</head>
+	
+	<body>
+	
+		<header>
+		<nav>
+		<ul >
+		<li ><a href="{{ url_for('accueil') }}" > Accueil </a></li>
+		<li ><a href="https://solidarites-sante.gouv.fr/sante-et-environnement/air-exterieur/qualite-de-l-air-exterieur-10984/article/qualite-de-l-air-sources-de-pollution-et-effets-sur-la-sante"target="_blank">L'actualité </a></li>
+		<li ><a href="https://www.1jour1actu.com/info-animee/__trashed"target="_blank">Pollution</a></li>
+		<li><a href="https://www.encyclopedie-environnement.org/air/les-pollutions-de-lair/"target="_blank">Histoire</a></li>
+		</ul>
+		</nav>
+		</header>
+		
+
+		<body>
+			<section class="section">
+			
+			<form>
+			<p>
+			<fieldset >
+			<legend > Coordonées </legend>
+			<table>
+			<form method="post" action="traitement.php">
+			<tr>
+			<th>
+			<label for="civilité">Civilité :</label>
+			</th>
+			
+			<th>
+			<input type="radio" name="rep" value="Mr" id="Mr" />
+			<label for="oui">Mr</label>
+			<input type="radio" name="rep" value="Mlle" id="Mlle" /> 
+			<label for="non">Mlle</label>
+			<input type="radio" name="rep" value="Mme" id="Mme"/>
+			<label for="Mme">Mme</label>
+			</th>
+			</tr>
+			</p>
+			</form>
+			
+			<p>
+			<tr>
+			<td><label for="nom">Nom :</label></td><td>
+			<input type="text" required="required" name="nom" id="nom" /></br></td>
+			</tr>
+
+			<tr>
+			<td>
+			<label for="adresse" >Adresse :</label>
+			</td>
+			
+			<td>
+			<input name="adresse"  required="required" id="adresse"/></br></td>
+			</tr>
+
+			<tr>
+			<td>
+			<label for="tel">Code postal :</label> </td><td>
+			<input type="" name="tel" required="required"  id="tel"/></br></td>
+			</tr>
+
+			<tr>
+			<td>
+			<label for="dateNaissance">Ville :</label></td><td>
+			<input type=""name="ville" required="required" id="ville" /></br></td>
+			</tr>
+
+			<tr>
+			<td>
+			<label for="mail">Adresse mail :</label></td><td>
+			<input type="email" name="mail"  required="required" id="mail" /></br></td>
+			</tr>
+			
+			<td><label for="motdepasse">Pays :</label></td>
+			<td><input type="" name="pays" required="required" id="pays"/></br></td>
+			<tr>
+			
+			<td>
+			<form method="post" action="traitement.php">
+			<p>Centre d'intérêts :</td>
+			
+			<td>
+			<input type="checkbox" name="sport" id="sport" /> 
+			<label for="sport" >Sport</label>
+			<input type="checkbox" name="cinema" id="cinema" />
+			<label for="cinema">Cinéma</label></td>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			</td>
+			<td>
+			<input type="checkbox" name="internet" id="internet"/>
+			<label for="internet">Internet</label>
+			<input type="checkbox" name="Voyage" id="Voyage" />
+			<label for="Voyage">Voyage</label></td>
+			</td>
+			</tr>
+			
+			</p>
+			</form>
+			</table>
+			</fieldset>
+			
+			
+			<fieldset>
+			<legend> Message </legend>
+			<textarea>
+			</textarea>
+			<input type="submit" value="Envoyer" />
+			<input type="reset" value="Reinitialiser" />
+			</fieldset>
+			</form>
+			</section>
+			
+			
+
+			<table>
+			<footer>
+			<ul>
+			<li ><a href="qui.html">Qui sommes nous? </a></li>
+			<li><a href="condition.html">Condition pour aider la planète</a></li> 
+			<li><a href="qcm.html">QCM</a></li>
+			
+			</ul>
+			</footer>
+			</table>
+		
+		</body>
+</html>

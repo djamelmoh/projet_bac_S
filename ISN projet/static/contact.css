@@ -1,0 +1,104 @@
+body {
+	color:white;
+	font-family: times new roman;
+	background: url(images/ecologie.png) no-repeat center center fixed;
+	background-size: cover;
+	
+}
+
+label ,tr,th,td,form{
+	color:white;
+	font-family: times new roman;
+}
+
+
+
+legend{
+	color: green;
+    border: 1px solid white;
+	box-shadow: 0 0 10px white;
+    background-color: white;
+}
+
+a{
+	text-decoration:none;
+ }
+ 
+#banner{
+	background-image: url(images/manga6.png);
+	width: 100%;
+	height: 200px;
+}
+
+nav {
+	background-image: url(images/manga6.png);
+	margin: auto;
+	width: 900px;
+	height: 40px;
+	display: flex;
+}
+ul{
+	margin: auto;
+	list-style:none;
+	display: flex;
+}
+li a{
+	color:green;
+	padding-left: 50px;
+	padding-right: 70px;
+	padding-top:12px;
+}
+li a:hover{
+	background-color: gold;
+	padding-bottom: 10px;
+}
+
+
+footer{
+	text-align: justify;
+	box-shadow: 5px 5px 10px red;
+	width: 1505px;
+	border-radius: 0px;
+	margin:auto;
+	display:flex;
+	
+}
+
+
+
+footer {
+	background-color: grey;
+	margin: auto;
+	padding-top: 5px;
+	height: 40px;
+	text-align: justify;
+	box-shadow: 5px 5px 10px red;
+	width: 1005px;
+	border-radius: 0px;
+	margin:auto;
+	display:flex;
+}
+
+fieldset
+{
+	box-shadow: 0 0 10px white;
+	margin: auto;
+	width: 50%;
+	background-color: #589ccb;
+}
+
+textarea
+{
+	width: 100%; 
+	height: 100px;
+}
+
+
+th ,td
+{
+	text-align: left;
+}
+
+
+}
+
